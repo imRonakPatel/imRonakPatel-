@@ -761,7 +761,7 @@ h1 {
 
 .w-col {
     width: 100%;
-    height: 300px;
+    height: 400px;
     position: relative;
     overflow: hidden;
     margin-bottom: 60px;
@@ -785,9 +785,7 @@ h1 {
 
 .W-block-img {
     width: 100%;
-    height: 220px;
-    border: 7px solid #ffffff;
-    box-shadow: gray 0.2px 0.2px 0.2px 0.2px;
+    height: 270px;
 }
 
 #w1 {
@@ -852,7 +850,7 @@ h3 {
 .w-block span {
     position: absolute;
     right: 0;
-    bottom: 40px;
+    bottom: 0px;
     font-family: Brandon-Reg, sans-serif;
     font-style: normal;
     font-weight: 200;
