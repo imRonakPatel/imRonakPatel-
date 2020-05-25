@@ -654,7 +654,7 @@
     });
 
     $("#fish").click(function() {
-        window.open('http://lyricliu.com/hci_hw4');
+        window.open('');
     });
 
 
@@ -672,9 +672,7 @@
     });
 
     $("#draw").click(function() {
-        hideWrap1();
-        $('#p-wrap5').show();
-        $('iframe').attr("src", "./pages/draw.html");
+        window.open("https://imronakpatel.github.io/yogatime");
     });
 
 
@@ -696,7 +694,7 @@
     });
 
     $("#p3").click(function() {
-        window.open('http://globalgamejam.org/2017/games/eventide');
+        window.open('');
     });
 
     $("#p4").click(function() {
@@ -716,7 +714,7 @@
     });
 
     $("#p6").click(function() {
-        window.open('http://lyricliu.com/hci_hw4');
+        window.open('');
     });
 
     $("#p7").click(function() {
