@@ -47,6 +47,9 @@ h2 {
 a {
     text-decoration: none;
     color: #3b3163;
+    font-size: 1.2em;
+    font-family: Brandon-Bold, sans-serif;
+    font-weight: 900;
 }
 
 iframe{
@@ -111,8 +114,8 @@ header {
     display: inline-block;
     font-family: Brandon-Reg, sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.2em;
+    font-weight: 700;
+    font-size: 1.25em;
     overflow: hidden;
     position: relative;
     height: 30px;
@@ -718,7 +721,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 4.0em;
-    color: #3b3163;
+    color: #5f576e;
     text-align: center;
     letter-spacing: 4px;
 }
@@ -731,8 +734,8 @@ h1 {
 #wrap1-head span {
     font-family: Brandon-Reg, sans-serif;
     font-style: normal;
-    font-weight: 100;
-    font-size: 1.2em;
+    font-weight: 900;
+    font-size: 1.3em;
     color: #5f576e;
 }
 
@@ -837,16 +840,19 @@ h1 {
     background: url(../img/w12.png) no-repeat center;
 }
 
+
 h3 {
     font-family: Brandon-Reg, sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 1.4em;
-    color: #3b3163;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #5f576e;
     left: 0;
     margin-top: 20px;
     margin-bottom: 2px;
 }
+
+
 
 .w-block span {
     position: absolute;
@@ -1116,12 +1122,13 @@ h3 {
 }
 
 #s2-bottom-right h4 {
-    padding-bottom: 20px;
+    padding-bottom: 28px;
 }
 
 h4 {
     font-family: Brandon-Reg, sans-serif;
     font-weight: 600;
+    font-size: 1.4em;
     font-style: italic;
     color: #3b3163;
 }
@@ -1157,7 +1164,7 @@ h4 {
 
 #s2-bottom-right-icon{
     float:left;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .s-dotgroup{
@@ -1603,6 +1610,7 @@ h5{
     position: relative;
     float: left;
     margin-left:15%;
+    margin-top: 3%;
 }
 
 .d-text div{
@@ -1615,6 +1623,7 @@ h5{
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 
 .d-text p{
     margin-bottom: 20px;
@@ -1737,4 +1746,9 @@ h5{
 .closeB:hover{
     opacity: 1;
     transition: all 0.3s ease-in-out;
+}
+strong{
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #fff;
 }
