@@ -9,9 +9,31 @@
     <link rel="stylesheet" href="style\animate.min.css">
     <script src="script\jquery.js"></script>
     <script src="script\jScrollability.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#spinner").bind("ajaxSend", function() {
+                $(this).show();
+            }).bind("ajaxStop", function() {
+                $(this).hide();
+            }).bind("ajaxError", function() {
+                $(this).hide();
+            });
+         
+             });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#button-upload').click(function() {
+                    $('#spinner').show();
+                });
+            });
+            </script>
 </head>
 
 <body>
+    <div id="spinner" class="spinner" style="display:none;">
+        <img id="img-spinner" src="spinner.gif" alt="Loading"/>
+    </div>
     <header>
         <div id="Ronak-logo"></div>
         <div id="navi-text">
