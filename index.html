@@ -9,12 +9,30 @@
     <link rel="stylesheet" href="style\animate.min.css">
     <script src="script\jquery.js"></script>
     <script src="script\jScrollability.min.js"></script>
+    <style>
+		/* This only works with JavaScript, 
+		   if it's not present, don't show loader */
+		.no-js #loader { display: none;  }
+		.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+	</style>
+	
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	
+	
+	<script src="https://github.com/Modernizr/Modernizr/raw/master/modernizr.js"></script>
+	<script>
+		// Wait for window load
+		$(window).load(function() {
+			// Animate loader off screen
+			$("#loader").animate({
+				top: -200
+			}, 1500);
+		});
+	</script>	
 </head>
 
 <body>
-    <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-      </div>
     <header>
         <div id="Ronak-logo"></div>
         <div id="navi-text">
@@ -525,12 +543,7 @@
             </video>
         </div>
     </div>
-  
-      <script>
-          $(window).on("load",function(){
-            $(".loader-wrapper").fadeOut("slow");
-          });
-      </script>
+    
     
     
     <script type="text/javascript" src="script\main.js"></script>
