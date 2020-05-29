@@ -117,15 +117,7 @@
                             };
 
                             img.src = item.src;
-                        } else if (item.type === 'video') {
-                            var video = new Audio();
-                            video.onloadstart = function() {
-                                loaded++;
-                                isLoadFinish();
-                            };
-
-                            video.src = item.src;
-                        }
+                        } 
                     });
                 })
                 return loadResolve;
