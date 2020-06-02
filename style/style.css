@@ -282,8 +282,7 @@ header {
     left: -200px;
     width: 1000px;
     height: 2000px;
-    background:#39a5d0;
-    opacity: 0;
+    background-image: url(../img/bg7.png);  
     transform: translate(20px, -800px) rotate(200deg);
     transition: all 0.5s ease-in-out;
     z-index: -1;
@@ -1270,7 +1269,7 @@ h4 {
     position: absolute;
     right: -450px;
     display:none;
-    background-image: url(../img/Rocket.gif);
+    background-image: url(../img/Rocketmove.gif);
 }
 
 #s3-gif2 {
@@ -1617,7 +1616,7 @@ h5{
 .d-text div{
     width:50px;
     height:3px;
-    background-color: #e69c9d;
+    background-color: #3ec7f8;
 }
 
 .d-text h3{

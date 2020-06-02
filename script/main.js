@@ -141,7 +141,7 @@
                 setTimeout(function() {
                     $('#s3-gif1').hide();
                     $('#s3-gif2').show();
-                }, 3000);
+                }, 2000);
             }
         }, {
             'selector': '#s3-left-icon',
