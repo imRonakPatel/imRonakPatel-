@@ -9,11 +9,26 @@
 
 <body>
     <style type="text/css">
+ 
+   
     body {
         margin: 0;
         padding:0;
         background: url(../img/bg3.png);
     }
+    
+    h3 {
+        font-family: Brandon-Reg;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 28rem;
+        color: #3b3163;
+    }
+
+    @font-face {
+        font-family: Brandon-Reg ;
+        src: url(../style/Brandon-Reg.otf);
+}
     
     .loading-process {
         position: absolute;
@@ -60,6 +75,7 @@
         <div class="loading-process">
             <div class="loading"></div>
             <div class="loaded"></div>
+            <h3>Loading</h3>
         </div>
         <script type="text/javascript">
         (function() {

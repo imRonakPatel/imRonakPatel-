@@ -112,9 +112,9 @@
     setTimeout(function() {
         $("#hello-img").hide();
         $("#hello-img1").show();
-    }, 2500);
+    }, 0);
     setTimeout(function() {
         $("#begin-text").show();
         $("#begin-text").addClass('animated fadeInUp');
-    }, 2000);
+    }, 0);
 }());
