@@ -37,6 +37,8 @@
                     setTimeout(function() {
                         $("#s3-right-text").fadeIn(1000);
                         $("#s3-right-text").addClass('animated fadeInUp');
+                        $("#s3-uppertext").fadeIn(1000);
+                        $("#s3-uppertext").addClass('animated fadeInUp');
                         $("#s3-pic").show();
                         $("#s3-pic").addClass('animated zoomIn');
                     }, 300);
@@ -44,6 +46,8 @@
                         $("#s3-left-text").fadeIn(1000);
                         $("#s3 h4").fadeIn(1000);
                         $("#s3-left-text").addClass('animated fadeInUp');
+                        $("#s3-lowertext").fadeIn(1000);
+                        $("#s3-lowertext").addClass('animated fadeInUp');
                     }, 600);
                 }
                 if (index == 4) {
@@ -74,11 +78,18 @@
         var winW = $(window).width();
         if(winH/winW < (4/3)){
             $("#s1-left p").css("font-size", "1.25rem");
+            $("#s1-right").css("top", "7rem");
+            $("#s1-left").css("top", "29rem");
             $("#s2 p").css("font-size", "1.2rem");
             $("#s2-bottom-right").css("top", "16rem");
             $("#s2-bottom-left").css("top", "32rem");
             $("#s3-h4").remove();
             $("#s3-left-text").css("top", "39rem");
+            $("#s3-lowertext").css("top", "42rem");
+            $("#s3-lowertext").css("left", "10rem");
+            $("#s3-lowertext").css("font-size", "1.4rem");
+            $("#s3-uppertext").css("left", "10rem");
+            $("#s3-uppertext").css("font-size", "1.4rem");
             $("#s4 p").css("font-size", "1.2rem");
             $("#s4 h5").css("font-size", "1.4rem");
             $("#h4 h2").css("font-size", "1.2rem");

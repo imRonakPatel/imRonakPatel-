@@ -34,7 +34,7 @@ body {
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
     font-weight: 100;
-    background: url(../img/bg14.png);
+    background: url(../img/bg11.png);
 }
 
 p {
@@ -460,7 +460,7 @@ h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 1.1em;
-    color: #5f576e;
+    color: #fff;
     left: 0;
     margin-top: 20px;
     margin-bottom: 2px;
@@ -473,11 +473,11 @@ h3 {
     font-style: normal;
     font-weight: 200;
     font-size: 1rem;
-    color: #747a95;
+    color: #3b3163;
 }
 
 .w-block p {
-    color: #5f576e;
+    color: #3b3163;
     font-size: 1rem;
 }
 
@@ -689,7 +689,7 @@ h3 {
 }
 
 #s3-block.active {
-    height: 54rem;
+    height: 56rem;
     transition: all 1s ease-in-out;
 }
 
@@ -743,23 +743,45 @@ h3 {
 }
 
 #s3-left-text {
-    width: 22.62rem;
-    height: 10.31rem;
+    width: 368px;
+    height: 100px;
     background-image: url(../img/s3-1text.png);
-    background-size: 100% 100%;
     position: absolute;
     top: 43rem;
-    left: 6rem;
+    left: 6.5rem;
     display: none;
 }
 
 #s3-right-text {
     width: 368px;
-    height: 161px;
+    height: 100px;
     background-image: url(../img/s3-2text.png);
     position: absolute;
     top: 22rem;
-    left: 0;
+    left: 0rem;
+    display: none;
+}
+#s3-uppertext {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    left: 8rem;
+    top: 30rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.7rem;
+    display: none;
+}
+
+#s3-lowertext {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    left: 8rem;
+    top: 46rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.7rem;
     display: none;
 }
 
@@ -835,6 +857,9 @@ h3 {
     width: 34rem;
     display: none;
     color: white;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    line-height: 1.8;
 }
 
 h5 {
