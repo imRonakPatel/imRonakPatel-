@@ -17,18 +17,6 @@
         background: url(../img/bg3.png);
     }
     
-    h3 {
-        font-family: Brandon-Reg;
-        font-size: 1.5em;
-        text-align: center;
-        margin-top: 28rem;
-        color: #3b3163;
-    }
-
-    @font-face {
-        font-family: Brandon-Reg ;
-        src: url(../style/Brandon-Reg.otf);
-}
     
     .loading-process {
         position: absolute;
@@ -54,7 +42,7 @@
     
     .loading {
         z-index: 1;
-        background-image: url(./img/loadingbg.png);
+        background-image: url(./img/loadingbg.gif);
         background-size: 10.7rem 8rem;
         background-position: left top;
     }
@@ -62,8 +50,8 @@
     .loaded {
         width: 0;
         z-index: 2;
-        border-right: 3px solid #f2f2f2;
-        background-image: url(./img/loading.png);
+        border-right: 1px solid #f2f2f2;
+        background-image: url(./img/loadingbg.gif);
         background-size: 10.7rem 8rem;
         background-position: left top;
     }
@@ -75,7 +63,6 @@
         <div class="loading-process">
             <div class="loading"></div>
             <div class="loaded"></div>
-            <h3>Loading</h3>
         </div>
         <script type="text/javascript">
         (function() {
