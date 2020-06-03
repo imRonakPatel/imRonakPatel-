@@ -34,7 +34,7 @@ body {
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
     font-weight: 100;
-    background: url(../img/bg11.png);
+    background: url(../img/bg5.png);
 }
 
 p {
@@ -460,25 +460,39 @@ h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 1.1em;
-    color: #fff;
+    color: #5f576e;
     left: 0;
     margin-top: 20px;
     margin-bottom: 2px;
 }
 
+.w-block h3 {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #5f576e;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    margin-left: 1rem;
+}
+
 .w-block span {
     position: absolute;
     right: 0;
-    font-family: brandon-grotesque, sans-serif;
+    font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 1rem;
-    color: #3b3163;
+    color: #5f576e;
+    top: 19rem;
 }
 
 .w-block p {
-    color: #3b3163;
+    color: #5f576e;
     font-size: 1rem;
+    margin-left: 1rem;
+
 }
 
 
